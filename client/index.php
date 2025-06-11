@@ -26,7 +26,7 @@ $data = mysqli_fetch_assoc($result);
         <div class="relative z-30 flex w-full max-w-2xl flex-col items-center rounded-2xl px-8 py-5 text-center">
             <!-- Heading -->
             <h1 class="mb-2 text-5xl font-bold text-white drop-shadow-lg md:text-6xl"><?php echo $data['new_quote']  ?></h1>
-            <p class="text-center text-white italic">- <?php echo $data['authe   r_name'] ?></p>
+            <p class="text-center text-white italic">- <?php echo $data['auther_name'] ?></p>
 
             <div class="mt-10">
                 <a href="#" class="rounded-xs bg-white px-4 py-2 font-light uppercase transition-all hover:bg-green-700 hover:text-white">Generate</a>

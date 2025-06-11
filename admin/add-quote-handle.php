@@ -3,6 +3,14 @@
 
 $new_quote = $_POST['new_quote'];
 $author_name = $_POST['auther_name'];
+$author_image = $_POST['author_image'];
+var_dump($_POST);
+var_dump($_FILES);
+
+if(isset($author_image)&& $author_image['error']==0){
+    $upload_dir = "uploads/";
+}
+die;
 
 include 'dbconn.php';
 
