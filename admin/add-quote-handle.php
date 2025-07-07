@@ -15,7 +15,7 @@ if(isset($author_image) && $author_image['error'] == 0){
     if(move_uploaded_file($author_image['tmp_name'], $target_path )){
         $image_path  = $target_path;
     }
-// die();
+
 }
 
 include 'dbconn.php';
