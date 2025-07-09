@@ -69,8 +69,7 @@ $path= $_GET['path'] ?? null ;
                                         </path>
                                     </svg>
                                 </span>
-                                <span class
-                                ="mx-4 text-sm font-normal">
+                                <span class="mx-4 text-sm font-normal">
                                     Add Quote
                                 </span>
                             </a>
